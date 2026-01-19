@@ -1,0 +1,109 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ========================================
+# PERSONAL & SENSITIVE INFORMATION
+# ========================================
+
+# Environment variables & API keys
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# EmailJS credentials (if stored in separate files)
+emailjs-config.json
+email-credentials.json
+
+# API keys and secrets
+secrets.json
+credentials.json
+config/secrets.*
+*.key
+*.secret
+
+# Personal configuration files
+personal-config.*
+private-config.*
+local-config.*
+
+# Resume and personal documents
+/resume/*
+/cv/*
+*.pdf
+*.doc
+*.docx
+!public/**/*.pdf
+
+# Personal notes and drafts
+notes.md
+todo.md
+personal-notes.*
+drafts/*
+
+# Backup files
+*.backup
+*.bak
+*.old
+*~
+
+# IDE and editor specific files with personal settings
+.vscode/settings.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+/temp/*
+/tmp/*
