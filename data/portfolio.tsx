@@ -89,7 +89,7 @@ export const portfolioData = {
             title: "RAG-Based Legal Chatbot",
             description: "Built RAG-powered chatbot using LangChain & Qwen LLM for Indian legal queries. Implemented vector search with ChromaDB across 32 legal documents",
             tech: ["Streamlit", "Python", "ChromaDB", "LangChain", "Qwen LLM"],
-            image: "/images/legal_bot.jpg",
+            image: "/images/legal_bot.JPG",
             github: "https://github.com/princesachan1/Project-AiLegalBot",
             demo: "https://huggingface.co/spaces/Ragabhai/Legal-Bot"
         },
@@ -106,9 +106,9 @@ export const portfolioData = {
             title: "Portfolio V1",
             description: "The first iteration of my personal portfolio showcasing my early web development skills.",
             tech: ["next.js", "tailwindcss", "typescript"],
-            image: "/images/portfolio.jpg",
+            image: "/images/portfolio.JPG",
             github: "https://github.com/princesachan1/prince-portfolio",
-            demo: "https://prince-portfolio.vercel.app/"
+            demo: "https://princeportfolio2.vercel.app/"
         },
     ],
 
