@@ -115,11 +115,13 @@ export const Hero = () => {
                         <span className="group-hover:translate-x-1 transition-transform">→</span>
                     </a>
                     <a
-                        href="#"
+                        href={hero.actions.resume}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="px-8 py-4 rounded-full bg-background text-foreground font-semibold border-2 border-foreground hover:bg-foreground hover:text-background transition-all flex items-center gap-2"
                     >
                         <LuDownload className="w-4 h-4" />
-                        Download CV
+                        Download Resume
                     </a>
                 </motion.div>
             </motion.div>

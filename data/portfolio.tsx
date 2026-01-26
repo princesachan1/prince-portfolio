@@ -13,7 +13,8 @@ export const portfolioData = {
         avatar: "/images/avatar.png",
         actions: {
             primary: { text: "Contact Me", href: "#contact" },
-            secondary: { text: "View Projects", href: "#projects" }
+            secondary: { text: "View Projects", href: "#projects" },
+            resume: "https://drive.google.com/file/d/1lm5-25eUvONxVaMi38CcR_WNUAGTQ5gV/view?usp=drive_link"
         }
     },
 
@@ -53,7 +54,6 @@ export const portfolioData = {
             { name: "React", icon: <FaCode /> },
             { name: "Next.js", icon: <SiNextdotjs /> },
             { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-            { name: "Node.js", icon: <FaCode /> }
         ],
         "AI / ML Tools": [
             { name: "TensorFlow", icon: <SiTensorflow /> },
@@ -72,8 +72,7 @@ export const portfolioData = {
             { name: "FAISS", icon: <FaMeta /> },
             { name: "Pinecone", },
             { name: "Redis", icon: <SiRedis /> },
-            { name: "Figma", icon: <SiFigma /> },
-            { name: "Jupyter Notebook", icon: <SiJupyter /> },
+            { name: "Figma", icon: <SiFigma /> }
 
         ],
         "Cloud & DevOps": [
@@ -81,12 +80,19 @@ export const portfolioData = {
             { name: "Docker", icon: <SiDocker /> },
             { name: "CI/CD Pipeline", icon: <SiGit /> },
             { name: "Cloud Deployment", icon: <CiCloud /> },
-            { name: "AWS", icon: <FaAws /> },
             { name: "Azure", icon: <VscAzure /> }
         ]
     },
 
     projects: [
+        {
+            title: "RAG-Based Legal Chatbot",
+            description: "Built RAG-powered chatbot using LangChain & Qwen LLM for Indian legal queries. Implemented vector search with ChromaDB across 32 legal documents",
+            tech: ["Streamlit", "Python", "ChromaDB", "LangChain", "Qwen LLM"],
+            image: "/images/legal_bot.jpg",
+            github: "https://github.com/princesachan1/Project-AiLegalBot",
+            demo: "https://huggingface.co/spaces/Ragabhai/Legal-Bot"
+        },
         {
             title: "Verdant-EcoSystem",
             description: "A full-stack food delivery platform featuring advanced AI analytics, real-time intelligence dashboards, and eco-rewards. Built with React, Flask, PostgreSQL, and high-performance C modules.",
@@ -95,21 +101,14 @@ export const portfolioData = {
             github: "https://github.com/princesachan1/verdant-EcoSystem",
             demo: "https://verdant-eco-system.vercel.app/"
         },
-        {
-            title: "Smart E-Commerce",
-            description: "A full-featured e-commerce platform with AI-driven product recommendations and real-time inventory tracking.",
-            tech: ["Next.js", "MongoDB", "Stripe", "Machine Learning"],
-            image: "https://picsum.photos/id/102/600/300",
-            github: "https://github.com/yourusername/project-two",
-            demo: null
-        },
+
         {
             title: "Portfolio V1",
             description: "The first iteration of my personal portfolio showcasing my early web development skills.",
-            tech: ["HTML", "CSS", "JavaScript"],
-            image: "https://picsum.photos/id/103/600/300",
-            github: "https://github.com/yourusername/project-three",
-            demo: "https://demo-link.com"
+            tech: ["next.js", "tailwindcss", "typescript"],
+            image: "/images/portfolio.jpg",
+            github: "https://github.com/princesachan1/prince-portfolio",
+            demo: "https://prince-portfolio.vercel.app/"
         },
     ],
 
