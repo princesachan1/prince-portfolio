@@ -14,7 +14,7 @@ export const portfolioData = {
         actions: {
             primary: { text: "Contact Me", href: "#contact" },
             secondary: { text: "View Projects", href: "#projects" },
-            resume: "https://drive.google.com/file/d/1O98yqcJrmVJW08tzGasQIprfuc7a_yEv/view?usp=sharing"
+            resume: "https://docs.google.com/document/d/17ykH2kr8HaQUckETUVnvLXHSe2xMDS9eQTfL1Or6rzw/edit?usp=sharing"
         }
     },
 
