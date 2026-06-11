@@ -86,6 +86,13 @@ export const portfolioData = {
 
     projects: [
         {
+            title: "InstantLedger - AI-Powered Expense Tracker",
+            description: "Built a Android expense tracker with 3 intelligent input modes: automated SMS notification parsing via Headless JS, AI-powered receipt scanning (PaddleOCR + custom SpaCy NER), and natural language voice entry with regex + NLP extraction.",
+            tech: ["React Native (Expo)", "FastAPI", "Python", "PostgreSQL (Neon)", "PaddleOCR", "SpaCy", "JWT", "SQLAlchemy", "Docker"],
+            image: "/images/instantledger.jpg",
+            github: "https://github.com/princesachan1/Expense_app",
+        },
+        {
             title: "RAG-Based Legal Chatbot",
             description: "Built RAG-powered chatbot using LangChain & Qwen LLM for Indian legal queries. Implemented vector search with ChromaDB across 32 legal documents",
             tech: ["Streamlit", "Python", "ChromaDB", "LangChain", "Qwen LLM"],
